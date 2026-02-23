@@ -125,44 +125,8 @@ Note: The scale factor is empirical and not calibrated to real-world distance me
 
 Users can toggle perspective point editing and click on the video to redefine the four transformation points.
 
----
 
-## 5. Project Structure
-
-```
-JalanViskom/
- ├── Form1.cs
- ├── Form1.Designer.cs
- ├── Program.cs
- ├── Resources/
- │    └── backgroundJalan
- └── Properties/
-```
-
----
-
-## 6. Installation
-
-### 6.1 Clone the Repository
-
-```bash
-git clone https://github.com/yourusername/vehicle-recognition.git
-```
-
-### 6.2 Open in Visual Studio
-
-Open the `.sln` file in Visual Studio.
-
-### 6.3 Install Required NuGet Packages
-
-```
-Install-Package Emgu.CV
-Install-Package Emgu.CV.runtime.windows
-```
-
----
-
-## 7. Assumptions
+## 5. Assumptions
 
 - The camera is stationary  
 - Lighting conditions are relatively stable  
@@ -171,7 +135,7 @@ Install-Package Emgu.CV.runtime.windows
 
 ---
 
-## 8. Limitations
+## 6. Limitations
 
 - No real-world calibration for speed accuracy  
 - Best performance with a single dominant vehicle  
@@ -180,7 +144,7 @@ Install-Package Emgu.CV.runtime.windows
 
 ---
 
-## 9. Future Improvements
+## 7. Future Improvements
 
 - Real-world calibration for accurate speed measurement  
 - Multi-object tracking  
@@ -189,7 +153,3 @@ Install-Package Emgu.CV.runtime.windows
 - Performance optimization for real-time processing  
 
 ---
-
-## 10. License
-
-This project is intended for educational purposes.  
